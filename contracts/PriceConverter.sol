@@ -11,9 +11,6 @@ library PriceConverter {
         // Sepolia ETH / USD Address
         // https://docs.chain.link/data-feeds/price-feeds/addresses#Sepolia%20Testnet
         
-        // AggregatorV3Interface priceFeed = AggregatorV3Interface(
-        //     0x694AA1769357215DE4FAC081bf1f309aDC325306
-        // );
 
         (, int256 answer, , , ) = priceFeed.latestRoundData();
         // ETH/USD rate in 18 digit
